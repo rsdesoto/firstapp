@@ -1,0 +1,39 @@
+.wrapper img {
+  height: 200px;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: content-box;
+}
+
+.bottomdiv {
+  color: white;
+  background-color: blue;
+  justify-self: flex-end;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
